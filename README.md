@@ -1,0 +1,2 @@
+# allowme
+ideal companionship
