@@ -1,6 +1,6 @@
 # allowme
 
-A new Flutter project.
+Ideal Companionship
 
 ## Getting Started
 
