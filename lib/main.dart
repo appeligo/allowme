@@ -46,12 +46,8 @@ class _MyHomePageState extends State<MyHomePage> implements FlareController {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        /*body: FlareActor("assets/allowme-4.flr",
-            fit: BoxFit.contain,
-            alignment: Alignment.center,
-            controller: this));*/
 
-            body: FlareActor("assets/allowme18.flr",
+            body: FlareActor("assets/splash.flr",
                   alignment: Alignment.center,
 				          isPaused: false,
                   fit: BoxFit.cover,
