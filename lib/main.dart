@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> implements FlareController {
             alignment: Alignment.center,
             controller: this));*/
 
-            body: FlareActor("assets/allowme-12.flr",
+            body: FlareActor("assets/allowme18.flr",
                   alignment: Alignment.center,
 				          isPaused: false,
                   fit: BoxFit.cover,
