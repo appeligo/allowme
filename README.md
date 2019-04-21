@@ -2,6 +2,12 @@
 
 Ideal Companionship
 
+UA-138502146-2
+
+http://jsfiddle.net/orlenko/HNyJS/ 
+
+https://www.2dimensions.com/a/appeligo/files/flare/allowme/embed
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
