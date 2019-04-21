@@ -2,27 +2,66 @@
 <html>
 
 <head>
+  <!-- http://jsfiddle.net/orlenko/HNyJS/ -->
   <meta charset="utf-8">
-  <title>allowme - ideal companionship</title>
+  <title>allowme</title>
   <style>
 
-    html{
-      background-color: #212233;
+    body {
+      margin: 0px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      min-height: 0px;
+      height: auto;
+      text-align: center;
+      background-color: #353542;
+      overflow:hidden;
     }
 
-    .iframe-flare-allowme{
-      transform: scale(0.5);
-      border: 1px solid red;
+    div#header {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 85px;
+      min-width: 1000px;
+      overflow: hidden;
+      background-color: #353542;
+    }
+
+    .flare-div-allowme {
+      border: 0;
+    }
+
+    .flare-iframe-allowme {
+      border: 0;
+      transform-origin: top;
+      transform: scale(.5);
       width: 768px;
       height: 1580px;
     }
-    
+
+    div#footer {
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      height: 25px;
+      min-width: 1000px;
+      background-color: #353542;
+    } 
+
   </style>
 </head>
 
 <body>
-  <div style="text-align: center; width: 100%;">
-      <iframe class="iframe-flare-allowme" src="https://www.2dimensions.com/a/appeligo/files/flare/allowme/embed"></iframe>
+  <div id="header"></div>
+    
+  <div class="flare-div-allowme">
+      <iframe id="splash" name="splash" class="flare-iframe-allowme" src="https://www.2dimensions.com/a/appeligo/files/flare/allowme/embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" onload="" allowtransparency="true"></iframe>
+  </div>
+  <div id="footer">
+    Are you kidding me right now?
   </div>
 </body>
 
