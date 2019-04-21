@@ -112,6 +112,7 @@ const FlareExample = (function ()
 	 */
 	function _Draw(viewer, graphics)
 	{
+		log.console("_Draw(" +viewer+ "," + graphics + ")");
 		if(!viewer._Actor)
 		{
 			return;
