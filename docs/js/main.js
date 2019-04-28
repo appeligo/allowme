@@ -2,17 +2,16 @@
 
 function login() {
 
-    const endpoint = 'https://allowme.appeligo.com/api/v1/login';
-    const config = {
-        headers: {
-            "content-type": "application/json;charset=UTF-8"
+    const Url='https://allowme.appeligo.com/api/v1/login';
+    const Data={user:"dhecking@gmail.com",password:"ch@PT3r4"};
+    const Config={
+        headers:{
+            "Content-type": "application/json"
         },
-        body: {
-            "user": "dhecking@gmail", "password": "ch@PT3r4"
-        },
-        method: "POST"
+        body:Data,
+        method:"POST"
     };
-    fetch(endpoint, config)
+    fetch(Url, Config)
         .then(data => { return data.json() })
         .then(res => { console.log(res) })
         .catch(error => console.log(error));
